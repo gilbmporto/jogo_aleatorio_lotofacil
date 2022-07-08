@@ -1,0 +1,88 @@
+/* Place your CSS styles in this file */
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: black;
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+.mainSpace {
+    align-content: center;
+    display: flexbox;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.numero {
+    display: block;
+    align-content: space-around;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sequenciaNumeros {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+.numIndiv {
+    padding: 10px;
+    margin: 10px 15px;
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.button {
+    display: block;
+    align-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.button:hover {
+    background-color: orangered;
+    width: 250px;
+    cursor: pointer;
+}
