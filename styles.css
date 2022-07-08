@@ -5,26 +5,29 @@
 }
 
 h1 {
+    font-size: 50px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: white;
 }
 
 body {
-    background-color: black;
+    background-image: url(./BackGround_Projeto_Lotofacil.jpg);
     display: block;
     align-content: center;
     text-align: center;
 }
 
 .mainSpace {
+    text-align: center;
     align-content: center;
     display: flexbox;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 10px 20px;
+    padding-bottom: 30px;
     border: 2px solid cornflowerblue;
     border-radius: 20px;
     width: 100%;

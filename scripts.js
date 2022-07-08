@@ -17,7 +17,9 @@ const gerarJogoAleatorio = function(){
         document.getElementById(numAleatString).innerHTML = arrayDeComparacao[numAleat - 1];
         i--;
         }
+        
     }
+    
 };
 
 const Resetar = () => {
@@ -36,8 +38,9 @@ const BotaoResetar = document.getElementById('botaoReset');
 
 BotaoJogoAleat.onclick = () => {
     if (jogoGerado === false) {
-        gerarJogoAleatorio();
+        
         jogoGerado = true;
+        gerarJogoAleatorio();
     } else {
         window.alert('Você já gerou um jogo! Clique em resetar para gerar um novo jogo!')
     };
